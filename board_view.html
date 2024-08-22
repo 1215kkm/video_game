@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="animate.min.css">
+    
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!--폰트어썸-->
+    <script src="https://kit.fontawesome.com/f3c9d07c5d.js"></script>
+    
+</head>
+<body>
+    <header class="header_sub">
+        <!-- header.html 자리 -->
+    </header>
+
+    
+    <div id="visual_sub">
+        <div class="centerbox1200">
+            <div class="sub_text">
+                NEWS
+            </div>
+            <div class="bread">
+                <a href="#">HOME</a>
+                <span> > </span>
+                <a href="#">NEWS</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="section_box_sub">
+        
+        <h2>뉴스
+            <span class="top"></span>
+            <span class="right"></span>
+            <span class="bottom"></span>
+            <span class="left"></span>
+        </h2>
+
+        <nav class="snb">
+            <div class="centerbox1200">
+                
+            </div>
+        </nav>
+
+        <article class="content board news">
+            <div class="centerbox1200">
+                <div class="board_box board_view">
+                    <ul class="top">
+                        <li class="tit">주문내역 혹은 영수증확인</li>
+                        <li class="info">
+                            <span class="q_kind">일반문의</span>
+                            <span class="date">2024.07.29</span>
+                        </li>
+                    </ul>
+
+                    <div class="textarea_box">
+                        <p>문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. 문의드립니다. </p>
+                    </div>
+
+                    <div class="admin_reply">
+                        <p>[운영자답변] 답변드립니다. 답변드립니다. 답변드립니다. 답변드립니다. 답변드립니다. 답변드립니다. 답변드립니다. </p>
+                    </div>
+                    
+                    <div class="btn_box mt50">
+                        <a href="#" class="btn1 btnC1">목록</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+
+
+    <footer></footer>
+
+    <div class="floating_menu sub">
+        <a href="#section1">
+            <i class="fa-regular fa-hourglass-half"></i>
+            <span>출시예정 게임</span>
+        </a>
+        <a href="#section2">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+            <span>BRAND STORY</span>
+        </a>
+        <a href="#section3">
+            <i class="fa-solid fa-circle-question"></i>
+            <span>게임문의</span>
+        </a>
+        <a href="#visual">
+            <i class="fa-solid fa-arrow-up"></i>
+            <span>TOP</span>
+        </a>
+    </div>
+
+
+
+
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+    <script src="script/jquery.scrolla.min.js"></script>
+    <script>
+        
+    </script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".section2Slide", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        769: {
+          slidesPerView: 3,  //브라우저가 769보다 클 때
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,  //브라우저가 1024보다 클 때
+          spaceBetween: 50,
+        },
+      },
+    });
+
+
+
+  </script>
+</body>
+</html>
